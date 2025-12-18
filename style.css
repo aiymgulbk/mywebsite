@@ -1,0 +1,72 @@
+/* Общие стили для всего сайта */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.patternpictures.com/images/sky-and-clouds-light-blue-subtle-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black; /* цвет текста изменен на черный */
+}
+
+/* Навигационное меню */
+.menu {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 22px;
+}
+.menu a {
+    margin: 0 15px;
+    color: black; /* ссылки меню черные */
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: #444; /* цвет при наведении темнее */
+}
+
+/* Центрированные секции */
+section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Заголовки разных размеров */
+.text-95 { font-size: 95px; font-weight: bold; color: black; }
+.text-74 { font-size: 74px; font-weight: bold; color: black; }
+.text-72 { font-size: 72px; font-weight: bold; color: black; }
+.text-63 { font-size: 63px; font-weight: bold; color: black; }
+.text-56 { font-size: 56px; color: black; }
+.text-47 { font-size: 47px; color: black; }
+.text-40 { font-size: 40px; color: black; }
+.text-27 { font-size: 27px; color: black; }
+.text-25 { font-size: 25px; color: black; }
+.text-24 { font-size: 24px; color: black; }
+.text-23 { font-size: 23px; color: black; }
+.text-21 { font-size: 21px; color: black; }
+.text-20 { font-size: 20px; color: black; }
+.text-16 { font-size: 16px; color: black; }
+.text-11 { font-size: 11px; color: black; }
+
+/* Контейнер для стран */
+.countries-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 20px;
+}
+.country-block {
+    background: rgba(255, 255, 255, 0.7); /* светлый фон, чтобы текст был читаем */
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+.country-block img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
